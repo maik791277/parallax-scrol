@@ -1,0 +1,4 @@
+.layers__layer_theme_middle {
+    background-image: url("../../../../images/layer-middle.png");
+    transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
+}

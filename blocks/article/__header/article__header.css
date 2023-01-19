@@ -1,0 +1,9 @@
+.article__header {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: calc(var(--index) * 1.8);
+    letter-spacing: calc(var(--index) / 7.5);
+    transform: var(--article-transform);
+    will-change: transform;
+    transition: var(--transition);
+}

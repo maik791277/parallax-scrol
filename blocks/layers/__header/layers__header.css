@@ -1,0 +1,10 @@
+.layers__header {
+    z-index: 1;
+    transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+    text-transform: uppercase;
+    will-change: transform;
+    font-weight: 900;
+    color: #d1b86d;
+    text-shadow: 0 0 15px #d1b86d;
+    transition: var(--transition);
+}
